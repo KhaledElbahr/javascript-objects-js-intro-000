@@ -1,5 +1,7 @@
 var playlist = {Adele: 'hello'};
 
+delete playlist.Adele;
+
 function updatePlaylist (playlist , artistName , songTitle) {
   return playlist[artistName] = songTitle;
 }
